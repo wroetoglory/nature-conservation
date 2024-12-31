@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bay Keepers Initiative</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #008080;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background: #004d4d;
+            padding: 10px 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: url('bay-area-nature.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            color: #008080;
+            margin-bottom: 10px;
+        }
+        footer {
+            background: #004d4d;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bay Keepers Initiative</h1>
+        <p>Restoring and Protecting San Francisco Bay Area Natural Spaces</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#programs">Programs</a>
+        <a href="#get-involved">Get Involved</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Join Us in Making a Difference</h1>
+    </div>
+    <div class="content">
+        <div id="about" class="section">
+            <h2>About Us</h2>
+            <p>Bay Keepers Initiative is a community-driven nonprofit dedicated to conserving and restoring natural spaces in the San Francisco Bay Area. Our mission is to engage and educate the community in environmental stewardship, habitat restoration, and scientific research to protect our ecosystems for future generations.</p>
+        </div>
+        <div id="programs" class="section">
+            <h2>Our Programs</h2>
+            <ul>
+                <li><strong>Weekly Trash Cleanups:</strong> Join us in cleaning parks, lakes, and beaches to maintain a healthier environment.</li>
+                <li><strong>Habitat Restoration Projects:</strong> Participate in removing invasive species and planting native flora to rejuvenate local ecosystems.</li>
+                <li><strong>Educational Outreach:</strong> Learn about conservation practices and the importance of environmental health through workshops and events.</li>
+                <li><strong>Scientific Research:</strong> Help collect and analyze data to address key environmental issues affecting our region.</li>
+            </ul>
+        </div>
+        <div id="get-involved" class="section">
+            <h2>Get Involved</h2>
+            <p>Whether you're an individual, a group, or an organization, there are many ways to get involved:</p>
+            <ul>
+                <li>Volunteer for cleanups and restoration projects.</li>
+                <li>Participate in our educational workshops and research initiatives.</li>
+                <li>Donate to support our mission and expand our impact.</li>
+            </ul>
+        </div>
+        <div id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Email: info@baykeepersinitiative.org</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Address: 123 Bay Area Blvd, Santa Clara, CA</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Bay Keepers Initiative. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
 
